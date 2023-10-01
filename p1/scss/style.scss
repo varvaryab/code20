@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+.body {
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
+
+    padding: 0 166px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(/p1/image/bg.jpg); 
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+    &__menu {
+        padding-top: 50px; 
+        display: flex;
+        align-items: center;
+
+    }
+    &__item {
+        color: white;
+text-decoration: none;
+font-weight: 700;
+font-size: 14px;
+margin-right: 25px ;
+       }
+       &__cart {
+        border-right: 1px;
+        color: white;
+       }
+}
