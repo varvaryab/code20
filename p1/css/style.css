@@ -22,6 +22,7 @@
 .header__menu {
   padding-top: 50px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 .header__item {
@@ -30,8 +31,51 @@
   font-weight: 700;
   font-size: 14px;
   margin-right: 25px;
+  transition: color 0.3s linear;
+}
+.header__item:hover {
+  color: red;
 }
 .header__cart {
-  border-right: 1px;
-  color: white;
+  border-right: 1px white solid;
+  padding-right: 10px;
+  height: 51px;
+  position: relative;
 }
+.header__cart__img {
+  position: absolute;
+  top: 18px;
+  right: 7px;
+}
+.header__phone__text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.header__phone__holder {
+  display: flex;
+  align-items: center;
+}
+.header__phone__holder__number {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+  transition: color 0.3s linear;
+}
+.header__phone__holder__number:hover {
+  color: red;
+}
+.header__button {
+  text-decoration: none;
+  background-color: #FF7400;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  padding: 14px 19px;
+  transition: color 0.2s linear;
+}
+.header__button:hover {
+  color: #FF7400;
+}/*# sourceMappingURL=style.css.map */
