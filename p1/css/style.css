@@ -136,4 +136,126 @@
 }
 .header__down__button:hover {
   background-color: #c35c08;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1019607843);
+  margin-bottom: 150px;
+}
+
+.card {
+  text-align: center;
+  background-color: #FFFFFF;
+  width: 349px;
+  min-height: 328px;
+  margin-top: -137px;
+  padding: 48px 10px 0;
+}
+.card__img {
+  padding-bottom: 4px;
+}
+.card__title {
+  font-family: Tinos;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #2C2C2C;
+  padding-bottom: 20px;
+}
+.card__title__word {
+  color: #BC9060;
+}
+.card__text {
+  color: #656363;
+  font-family: Tinos;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.content {
+  display: flex;
+}
+.content__info {
+  width: 50%;
+  padding: 16px 125px 60px 0;
+}
+.content__img {
+  width: 50%;
+}
+.content__title {
+  font-family: Tinos;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 62px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 21px;
+}
+.content__title__word {
+  color: #D67E34;
+}
+.content__text {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  color: #656363;
+  padding-bottom: 39px;
+  margin-bottom: 39px;
+}
+.content__columns {
+  display: flex;
+  justify-content: space-around;
+}
+.content__list {
+  list-style: none;
+  text-align: center;
+}
+.content__number {
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 54px;
+  color: #BC9060;
+}
+.content__item {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+}
+.content__img {
+  position: relative;
+}
+.content__img__one {
+  position: absolute;
+  z-index: 0;
+  top: 74px;
+  left: 0px;
+}
+.content__img__two {
+  position: absolute;
+  z-index: 3;
+  top: 0px;
+  left: 190px;
+}
+.content__img__three {
+  position: absolute;
+  z-index: 2;
+  top: 155px;
+  left: 210px;
+}
+.content__img__four {
+  position: absolute;
+  z-index: -1;
+  top: 350px;
+  left: 0px;
 }/*# sourceMappingURL=style.css.map */
